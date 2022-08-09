@@ -10,9 +10,7 @@
 Mix.install([{:kino, "~> 0.6.2"}, {:hidden_cell, github: "BrooklinJazz/hidden_cell"}])
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/hidden_cell>.
+## Usage
 
 Hidden Cells hide the code of an Elixir Cell when you only want to display the output.
 
