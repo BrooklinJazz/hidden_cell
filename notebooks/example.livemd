@@ -4,6 +4,16 @@
 Mix.install([{:kino, "~> 0.6.2"}, {:hidden_cell, path: "."}])
 ```
 
+## Installation
+
+`HiddenCell` relies on the [Kino](https://github.com/trbflxr/kino) project. Use `Mix.install/2` in the setup section of your project to install `HiddenCell` and `Kino`.
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+Mix.install([{:kino, "~> 0.6.2"}, {:hidden_cell, github: "BrooklinJazz/hidden_cell"}])
+```
+
 ## Usage
 
 Double click on the `Hidden Cell` to display a textarea code editor.
