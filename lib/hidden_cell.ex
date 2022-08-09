@@ -53,7 +53,7 @@ defmodule HiddenCell do
         ctx.pushEvent("update", { source: event.target.value });
       });
 
-      container.addEventListener("dblclick", (event) => {
+      title.addEventListener("dblclick", (event) => {
         if (textarea.style.display == "none") {
           textarea.style.display = "block"
         } else {
@@ -89,11 +89,11 @@ defmodule HiddenCell do
       font-weight: 500;
       color: rgb(97 117 138);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-      cursor: pointer;
     }
 
     #title {
       text-align: center;
+      cursor: pointer;
     }
     """
   end
