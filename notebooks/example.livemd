@@ -18,7 +18,7 @@ Mix.install([{:kino, "~> 0.6.2"}, {:hidden_cell, github: "BrooklinJazz/hidden_ce
 
 Double click on the `HiddenCell` to display a textarea code editor.
 
-<!-- livebook:{"attrs":{"source":"Enum.to_list(1..15)"},"kind":"Elixir.HiddenCell","livebook_object":"smart_cell"} -->
+<!-- livebook:{"attrs":{"source":"Enum.to_list(1..15)","title":"Hidden Cell"},"kind":"Elixir.HiddenCell","livebook_object":"smart_cell"} -->
 
 ```elixir
 Enum.to_list(1..15)
